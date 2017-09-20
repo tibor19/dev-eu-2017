@@ -9,6 +9,7 @@ import { RecipeComponent } from './recipe/recipe.component';
 import { TakePipe } from './take.pipe';
 import { DayOfWeekPipe } from './day-of-week.pipe';
 import { ImagePipe } from './image.pipe';
+import {RecipeService} from './recipe.service';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { ImagePipe } from './image.pipe';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [RecipeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
