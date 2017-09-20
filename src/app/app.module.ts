@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { WeeklyMenuComponent } from './weekly-menu/weekly-menu.component';
 import { RecipeComponent } from './recipe/recipe.component';
+import { TakePipe } from './take.pipe';
+import { DayOfWeekPipe } from './day-of-week.pipe';
+import { ImagePipe } from './image.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     WeeklyMenuComponent,
-    RecipeComponent
+    RecipeComponent,
+    TakePipe,
+    DayOfWeekPipe,
+    ImagePipe
   ],
   imports: [
     BrowserModule,

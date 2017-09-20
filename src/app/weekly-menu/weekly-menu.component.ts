@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WeeklyMenuComponent implements OnInit {
 
-  days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
   recipes = [{
     'recipeId': 1,
     'name': 'Fish sticks and Rice',
