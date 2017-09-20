@@ -1,4 +1,4 @@
-<article [hidden]="!recipe">
+<article *ngIf="recipe">
   <div>
     <h2>{{recipe.name}}</h2>
 

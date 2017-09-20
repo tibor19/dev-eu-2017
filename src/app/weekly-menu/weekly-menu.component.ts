@@ -13,7 +13,7 @@ export class WeeklyMenuComponent implements OnInit {
   constructor(private recipeService: RecipeService) { }
 
   ngOnInit() {
-    this.recipes = this.recipeService.getRecipes();
+    this.recipeService.getRecipes().subscribe(r => this.recipes = r);
   }
 
 }
