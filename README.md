@@ -6,5 +6,5 @@ Plase follow this steps to prepare your machine:
   - Install a git client [`https://git-scm.com/`](https://git-scm.com/)
   - Install an editor, preferably VS Code, [`http://code.visualstudio.com/`](http://code.visualstudio.com/)
   - Install `angular cli` by running `npm install -g @angular/cli` 
-  - clone this repo by running `git clone https://github.com/tibor19/ve-angular-workshop`
+  - clone this repo by running `git clone https://github.com/tibor19/dev-eu-2017 dev-eu`
     - If you don't want to track your changes against this repo please remove the `.git` folder
